@@ -1,7 +1,17 @@
-.grid-container {
+.h1 {
+    font-family: 'Georgia';
+    font-size: 'larger';
+    color:black;
+}
+
+.container {
   display: grid;
-  grid-template-columns: 1fr 1.3fr 0.7fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
+  background-color: #f8f8f8;
+  border: 1px solid #c9c9c9;
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (min-width: 500px) {
+
 }
