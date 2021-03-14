@@ -1,17 +1,8 @@
-.h1 {
-    font-family: 'Georgia';
-    font-size: 'larger';
-    color:black;
-}
-
 .container {
   display: grid;
   background-color: #f8f8f8;
+  font-family: 'Georgia';
   border: 1px solid #c9c9c9;
   border-radius: 7px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
-}
-
-@media screen and (min-width: 500px) {
-
 }
