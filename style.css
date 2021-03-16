@@ -28,6 +28,29 @@
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
+.h1 {
+    font-family: 'Georgia';
+    font-size: 'larger';
+    color:black;
+}
+
+.container {
+    font-family: 'Georgia';
+    color:black;
+    background-color: #f8f8f8;
+    border: 1px solid #c9c9c9;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 @media screen and (min-width: 500px) {
     .column {
       width: 75%;
